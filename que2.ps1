@@ -1,0 +1,1 @@
+new-item "file1.txt" -itemtype file -value "this is the content in this file"
