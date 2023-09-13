@@ -1,4 +1,6 @@
 $n1 = read-host
 $n2 = read-host
-$n3  = $n1 + $n2
-write-host $n3
+$n3  = [int]$n1 + [int]$n2
+if($n3 -gt 70){
+    write-host
+}
